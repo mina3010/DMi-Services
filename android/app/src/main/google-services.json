@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "89941910144",
+    "project_id": "d-mi-services",
+    "storage_bucket": "d-mi-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89941910144:android:098b7d9d7c87e79ef1fc65",
+        "android_client_info": {
+          "package_name": "org.fchecg.dmi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3VTjwXw2xUyFXlMEME1_0AcZOOk8M4FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
