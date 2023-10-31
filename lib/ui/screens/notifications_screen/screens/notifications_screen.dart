@@ -1,14 +1,8 @@
-import 'package:easy_localization/easy_localization.dart';
-import 'package:DMI/core/res/colors.dart';
+
 import 'package:DMI/core/utils/app_navigation.dart';
 import 'package:DMI/ui/screens/no_internet_screen/no_internet_screen.dart';
 import 'package:DMI/ui/screens/notifications_screen/cubit/notifications_cubit.dart';
 import 'package:DMI/ui/screens/notifications_screen/cubit/notifications_state.dart';
-import 'package:DMI/ui/screens/notifications_screen/widgets/notification_card.dart';
-import 'package:DMI/ui/widgets/center_loading.dart';
-import 'package:DMI/ui/widgets/center_no_more_result.dart';
-import 'package:DMI/ui/widgets/custom_app_bar.dart';
-import 'package:DMI/ui/widgets/pagination_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -25,6 +19,9 @@ class NotificationsScreen extends StatelessWidget {
       });
     }
   }
+
+
+
 
   @override
   Widget build(BuildContext context) {

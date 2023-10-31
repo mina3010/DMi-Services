@@ -4,7 +4,6 @@ import 'package:DMI/core/res/colors.dart';
 import 'package:DMI/core/utils/app_navigation.dart';
 import 'package:DMI/ui/screens/about_screen/screens/about_screen.dart';
 import 'package:DMI/ui/screens/contact_us_screen/screens/contact_us_screen.dart';
-import 'package:DMI/ui/screens/donate_screen/screens/donate_screen.dart';
 import 'package:DMI/ui/screens/more_screen/cubit/more_cubit.dart';
 import 'package:DMI/ui/screens/more_screen/cubit/more_state.dart';
 import 'package:DMI/ui/screens/more_screen/widgets/more_card.dart';
@@ -49,30 +48,7 @@ class MoreScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    MoreCard(
-                      content: 'about_us'.tr(),
-                      imageURL: 'assets/images/svg/about.svg',
-                      onTap: () {
-                        AppNavigation.instance
-                            .push(context, const AboutScreen());
-                      },
-                    ),
-                    MoreCard(
-                      content: 'donate_for_us'.tr(),
-                      imageURL: 'assets/images/svg/donate_us.svg',
-                      onTap: () {
-                        AppNavigation.instance
-                            .push(context, const DonateScreen());
-                      },
-                    ),
-                    MoreCard(
-                      content: 'contact_us'.tr(),
-                      imageURL: 'assets/images/svg/contact_us.svg',
-                      onTap: () {
-                        AppNavigation.instance
-                            .push(context, const ContactUsScreen());
-                      },
-                    ),
+                   Container(),
                   ],
                 ),
               ),
